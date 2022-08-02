@@ -1,0 +1,101 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); //font-family: 'Inter', sans-serif;   İNCE
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); //font-family: 'Lexend Deca', sans-serif;  KALIN
+
+body {
+    background-color: $main-background;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+
+    .main {
+        background-color: $card-background;
+        padding: 4rem;
+        width: 55%;
+        height: 400px;
+        box-sizing: border-box;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+
+        h1 {
+            font-family: 'Inter', sans-serif;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            color: $main-heading-stats;
+            padding-right: 5rem;
+            margin-top: 0px;
+        }
+
+        span {
+            color: $soft-violet;
+            
+        }
+
+
+        p {
+            color: $main-paragraph;
+            font-family: 'Inter', sans-serif;
+            font-size: $body-font-size;
+            margin-top: 1.8rem;
+        }
+
+        .container-bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            column-gap: 5rem;
+            margin-top: 4.5rem;
+
+            .part {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+            }
+
+            .number {
+                color: $main-heading-stats;
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: 1.6rem;
+                font-weight: 700;
+                margin-bottom: 0.5rem;
+            }
+
+            .word {
+                color: $stat-headings;
+                font-family: 'Inter', sans-serif;
+                font-weight: 500;
+                font-size: 0.85rem;
+            }
+
+
+        }
+
+    }
+
+    .banner-image {
+        width: 45%;
+        height: 400px;
+        
+        background-color: $soft-violet;
+        border-radius: 0px 8px 8px 0px; //The values are in order: top-left,top-right, bottom-right, bottom-left
+    }
+    .image{
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        opacity: 0.6;
+    }
+
+}

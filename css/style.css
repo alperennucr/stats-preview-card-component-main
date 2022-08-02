@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  background-color: hsl(233deg, 47%, 7%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+}
+section .main {
+  background-color: hsl(244deg, 38%, 16%);
+  padding: 4rem;
+  width: 55%;
+  height: 400px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+section .main h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: hsl(0deg, 0%, 100%);
+  padding-right: 5rem;
+  margin-top: 0px;
+}
+section .main span {
+  color: hsl(277deg, 64%, 61%);
+}
+section .main p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin-top: 1.8rem;
+}
+section .main .container-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+  margin-top: 4.5rem;
+}
+section .main .container-bottom .part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+section .main .container-bottom .number {
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+section .main .container-bottom .word {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+section .banner-image {
+  width: 45%;
+  height: 400px;
+  background-color: hsl(277deg, 64%, 61%);
+  border-radius: 0px 8px 8px 0px;
+}
+section .image {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
